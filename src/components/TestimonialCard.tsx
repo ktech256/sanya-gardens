@@ -12,9 +12,9 @@ export function TestimonialCard({ name, company, rating, text }: { name: string;
             <span key={index} className="text-gold-500">★</span>
           ))}
         </div>
-        <p className="mb-4 text-zinc-200">“{text}”</p>
+        <p className="mb-4 text-olive-100">“{text}”</p>
         <p className="font-semibold text-white">{name}</p>
-        <p className="text-sm text-zinc-400">{company}</p>
+        <p className="text-sm text-olive-300">{company}</p>
       </GlassCard>
     </motion.div>
   );

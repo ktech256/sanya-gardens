@@ -9,15 +9,15 @@ export default function AboutPage() {
   return (
     <div className="space-y-12 pb-10">
       <HeroSection
-        title="About The Great Elephant Consulting"
-        subtitle="TGEC is a South African advisory partner focused on disciplined financial management, compliance confidence, and strategic growth outcomes."
+        title="About Sanya Gardens"
+        subtitle="Sanya Gardens is a nature-focused destination offering outdoor recreation, learning experiences, and cultural activities for visitors and communities."
         image="/images/elephant-hero.jpg"
       />
 
       <Reveal>
         <SectionHeading
-          title="Company profile"
-          description="We work alongside leadership teams to build financially resilient organisations. Our consultants combine technical precision with practical insight to ensure that reporting, tax, and governance processes are never an afterthought."
+          title="About Sanya Gardens"
+          description="We welcome families, schools, youth groups, and visitors to enjoy nature through picnics, boot camping, school camps, sports, birdwatching, stargazing, and sustainability learning experiences."
         />
       </Reveal>
 
@@ -26,15 +26,15 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Our Foundation"
             title="Vision and Mission"
-            description="These principles guide how we serve clients, mentor talent, and uphold trusted standards in every engagement."
+            description="These principles guide how we host visitors, protect nature, and create meaningful experiences in every activity."
           />
           <div className="grid gap-6 md:grid-cols-2">
             <GradientBorder>
               <GlassCard className="h-full p-6 md:p-7">
                 <div className="mb-4 h-1.5 w-14 rounded-full bg-gold-500/80" />
                 <h3 className="mb-3 text-xl font-semibold text-white">Vision</h3>
-                <p className="text-zinc-300">
-                  “We aspire to build the largest accounting firm in the Republic, where young South African professionals are nurtured in the ethical values of honesty, integrity, and excellence.”
+                <p className="text-olive-200">
+                  “Our vision is to be a leading eco-friendly destination where people connect with nature, culture, learning, and wellness.”
                 </p>
               </GlassCard>
             </GradientBorder>
@@ -43,8 +43,8 @@ export default function AboutPage() {
               <GlassCard className="h-full p-6 md:p-7">
                 <div className="mb-4 h-1.5 w-14 rounded-full bg-gold-500/80" />
                 <h3 className="mb-3 text-xl font-semibold text-white">Mission</h3>
-                <p className="text-zinc-300">
-                  “Our mission is to deliver trusted, high-quality accounting, tax, and advisory services that help individuals and organisations thrive, while developing young Southern African professionals through mentorship, skills transfer, and a culture of honesty, integrity, and excellence.”
+                <p className="text-olive-200">
+                  “Our mission is to provide safe, enjoyable, and educational outdoor activities that promote environmental conservation, community connection, and sustainable living.”
                 </p>
               </GlassCard>
             </GradientBorder>
@@ -55,10 +55,10 @@ export default function AboutPage() {
       <Reveal>
         <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6">
           <h3 className="mb-3 text-xl text-white">Values</h3>
-          <ul className="space-y-2 text-zinc-300">
-            <li>• Integrity in every recommendation and submission.</li>
-            <li>• Technical excellence grounded in standards and legislation.</li>
-            <li>• Partnership mindset with responsive client service.</li>
+          <ul className="space-y-2 text-olive-200">
+            <li>• Respect for nature, biodiversity, and sustainability.</li>
+            <li>• Safe, inclusive, and enjoyable visitor experiences.</li>
+            <li>• Community engagement through recreation and learning.</li>
             <li>• Continuous improvement through data-driven insight.</li>
           </ul>
         </div>
@@ -66,12 +66,12 @@ export default function AboutPage() {
 
       <Reveal>
         <SectionHeading
-          title="Why choose TGEC"
-          description="Clients choose TGEC for our precision, discretion, and ability to translate complexity into strategic direction. We deliver consistent communication, practical implementation support, and outcomes that stand up to scrutiny."
+          title="Why choose Sanya Gardens"
+          description="Visitors choose Sanya Gardens for our peaceful environment, diverse activities, and welcoming atmosphere. We provide safe, enjoyable, and meaningful experiences for families, schools, and groups."
         />
       </Reveal>
-      <Link href="/book-consultation" className="inline-flex rounded-full bg-gold-metallic px-6 py-3 font-semibold text-zinc-950">
-        Book a Consultation
+      <Link href="/book-consultation" className="inline-flex rounded-full bg-gold-metallic px-6 py-3 font-semibold text-olive-950">
+        Book for Activities
       </Link>
     </div>
   );

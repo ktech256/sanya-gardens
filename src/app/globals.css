@@ -11,8 +11,8 @@ html {
 }
 
 body {
-  background: linear-gradient(180deg, #0f0f10 0%, #1a1a1c 100%);
-  color: #f4f4f2;
+  background: linear-gradient(180deg, #39431f 0%, #1a3519 65%, #112311 100%);
+  color: #f5f7ee;
 }
 
 .noise-overlay {

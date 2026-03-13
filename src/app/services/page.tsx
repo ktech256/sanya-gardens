@@ -8,7 +8,7 @@ export default function ServicesPage() {
   return (
     <div className="space-y-12 pb-10">
       <HeroSection
-        title="Comprehensive Services for Finance, Tax, and Compliance"
+        title="Comprehensive Activities for Finance, Tax, and Compliance"
         subtitle="Explore our full service portfolio designed to support business continuity, regulatory compliance, and growth-focused strategy."
         image="/images/elephant-hero.jpg"
       />

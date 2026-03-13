@@ -9,7 +9,7 @@ import { CONTACT_CONFIG } from '@/lib/contactConfig';
 type Props = { defaultService?: string };
 
 const fields =
-  'w-full rounded-xl border border-white/15 bg-zinc-900/70 px-4 py-3 text-white outline-none placeholder:text-zinc-500 focus:border-gold-500';
+  'w-full rounded-xl border border-white/15 bg-olive-900/70 px-4 py-3 text-white outline-none placeholder:text-olive-400 focus:border-gold-500';
 
 async function postJson(url: string, payload: unknown) {
   const res = await fetch(url, {
@@ -101,7 +101,7 @@ export function ConsultationForm({ defaultService }: Props) {
     }
 
     // Always open WhatsApp as a reliable fallback path
-    const message = `Hello TGEC, I would like to book a consultation.
+    const message = `Hello Sanya Gardens, I would like to book a consultation.
 Name: ${payload.fullName}
 Company: ${payload.companyName || '-'}
 Phone: ${payload.phone}
@@ -186,7 +186,7 @@ Message: ${payload.message || '-'}`;
       <div className="md:col-span-2">
         <button
           disabled={isSubmitting}
-          className="rounded-full bg-gold-metallic px-6 py-3 font-semibold text-zinc-950 disabled:opacity-60"
+          className="rounded-full bg-gold-metallic px-6 py-3 font-semibold text-olive-950 disabled:opacity-60"
         >
           {isSubmitting ? 'Submitting...' : 'Submit Consultation Request'}
         </button>

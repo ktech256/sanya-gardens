@@ -7,7 +7,7 @@ const reviews = [
     name: 'Sibusiso Dlamini',
     company: 'Dlamini Engineering Works',
     rating: 5,
-    text: 'TGEC transformed our monthly reporting quality and gave leadership real confidence in our numbers.'
+    text: 'Sanya Gardens transformed our monthly reporting quality and gave leadership real confidence in our numbers.'
   },
   {
     name: 'Anika Patel',
@@ -25,7 +25,7 @@ const reviews = [
     name: 'Chanté van Rensburg',
     company: 'CVR Foods',
     rating: 5,
-    text: 'Professional, detailed, and strategic. TGEC has become an essential extension of our finance function.'
+    text: 'Professional, detailed, and strategic. Sanya Gardens has become an essential extension of our finance function.'
   },
   {
     name: 'Mpho Nkosi',
@@ -40,7 +40,7 @@ export default function ReviewsPage() {
     <div className="space-y-10 pb-10">
       <HeroSection
         title="Client Reviews"
-        subtitle="Businesses across South Africa trust TGEC for accuracy, strategic guidance, and dependable service delivery."
+        subtitle="Businesses across South Africa trust Sanya Gardens for accuracy, strategic guidance, and dependable service delivery."
         image="/images/elephant-hero.jpg"
       />
       <section className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">

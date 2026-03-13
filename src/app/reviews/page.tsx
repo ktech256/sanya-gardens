@@ -5,33 +5,33 @@ import { TestimonialCard } from '@/components/TestimonialCard';
 const reviews = [
   {
     name: 'Sibusiso Dlamini',
-    company: 'Dlamini Engineering Works',
+    company: 'Weekend Visitor',
     rating: 5,
-    text: 'TGEC transformed our monthly reporting quality and gave leadership real confidence in our numbers.'
+    text: 'The picnic spaces are beautiful and the environment is very relaxing for family visits.'
   },
   {
     name: 'Anika Patel',
-    company: 'Patel Property Group',
+    company: 'School Trip Organizer',
     rating: 5,
-    text: 'Highly dependable team with exceptional tax advisory depth and responsive support.'
+    text: 'Our students loved the school camp and nature-learning sessions.'
   },
   {
     name: 'Thabo Maseko',
-    company: 'Maseko Retail Holdings',
+    company: 'Youth Group Mentor',
     rating: 5,
-    text: 'Their compliance reviews identified key risk gaps before they became costly issues.'
+    text: 'Boot camping activities helped our youth build teamwork and confidence.'
   },
   {
     name: 'Chanté van Rensburg',
-    company: 'CVR Foods',
+    company: 'Nature Enthusiast',
     rating: 5,
-    text: 'Professional, detailed, and strategic. TGEC has become an essential extension of our finance function.'
+    text: 'Birdwatching and walking trails made our visit calm, refreshing, and educational.'
   },
   {
     name: 'Mpho Nkosi',
-    company: 'Nkosi Digital Services',
+    company: 'Community Visitor',
     rating: 5,
-    text: 'From setup to ongoing advisory, every interaction has been clear, practical, and high value.'
+    text: 'The Nyama Choma and volleyball activities made our group event truly enjoyable.'
   }
 ];
 
@@ -40,7 +40,7 @@ export default function ReviewsPage() {
     <div className="space-y-10 pb-10">
       <HeroSection
         title="Client Reviews"
-        subtitle="Businesses across South Africa trust TGEC for accuracy, strategic guidance, and dependable service delivery."
+        subtitle="Visitors and groups enjoy Sanya Gardens for memorable, safe, and nature-rich activity experiences."
         image="/images/elephant-hero.jpg"
       />
       <section className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">

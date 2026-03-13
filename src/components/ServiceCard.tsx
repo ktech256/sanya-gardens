@@ -16,7 +16,7 @@ export function ServiceCard({ service }: { service: Service }) {
             <ImageWithFallback src={service.cardImage} alt={service.title} className="object-cover" />
           </div>
           <h3 className="mb-3 text-2xl font-semibold text-white">{service.title}</h3>
-          <ul className="mb-5 space-y-2 text-sm text-zinc-300">
+          <ul className="mb-5 space-y-2 text-sm text-olive-200">
             {service.subServices.map((item) => (
               <li key={item.title} className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-500" />

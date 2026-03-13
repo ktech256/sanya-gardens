@@ -11,7 +11,7 @@ type SocialLinkItem = {
 const socialLinks: SocialLinkItem[] = [
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com/great_elephant_consulting?igsh=MWYzYmloZ2o4a2k0cw%3D%3D&utm_source=qr',
+    href: '/',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" className="h-full w-full">
         <rect x="3" y="3" width="18" height="18" rx="6" stroke="currentColor" strokeWidth="1.8" />
@@ -22,7 +22,7 @@ const socialLinks: SocialLinkItem[] = [
   },
   {
     name: 'Facebook',
-    href: 'https://www.facebook.com/share/17wC3X4PVy/?mibextid=wwXIfr',
+    href: '/',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" className="h-full w-full">
         <path
@@ -65,13 +65,14 @@ export function SocialLinks({ iconSizeClass = 'h-9 w-9', className = '' }: Socia
     <div className={`flex flex-wrap gap-3 ${className}`.trim()}>
       {socialLinks.map((item) => {
         const isPlaceholder = item.placeholder;
+        const isExternal = item.href.startsWith('http');
 
         return (
           <Link
             key={item.name}
             href={item.href}
-            target={isPlaceholder ? undefined : '_blank'}
-            rel={isPlaceholder ? undefined : 'noopener noreferrer'}
+            target={isExternal && !isPlaceholder ? '_blank' : undefined}
+            rel={isExternal && !isPlaceholder ? 'noopener noreferrer' : undefined}
             aria-label={item.name}
             className={`group flex items-center justify-center rounded-full border border-gold-500/40 bg-white/[0.04] p-2 text-gold-400 transition hover:border-gold-400 hover:text-gold-300 ${iconSizeClass} ${isPlaceholder ? 'cursor-not-allowed opacity-60 hover:text-gold-400' : ''}`}
           >

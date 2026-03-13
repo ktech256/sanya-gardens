@@ -28,7 +28,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
 
       <Reveal>
         <section>
-          <h3 className="mb-4 text-2xl font-semibold text-white">Service scope</h3>
+          <h3 className="mb-4 text-2xl font-semibold text-white">Activity highlights</h3>
           <div className="grid gap-4 md:grid-cols-2">
             {service.subServices.map((subService) => (
               <article key={subService.title} className="rounded-2xl border border-white/10 bg-olive-900/65 p-5">
@@ -65,7 +65,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
           </article>
 
           <article className="rounded-2xl border border-white/10 bg-white/[0.02] p-6">
-            <h3 className="mb-4 text-2xl font-semibold text-white">How we work</h3>
+            <h3 className="mb-4 text-2xl font-semibold text-white">How activities work</h3>
             <div className="space-y-4">
               {howWeWorkSteps.map((step, index) => (
                 <div key={step.title} className="rounded-xl border border-white/10 bg-olive-900/60 p-4">
@@ -90,7 +90,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
             href={`/book-consultation?service=${encodeURIComponent(service.title)}`}
             className="inline-flex rounded-full bg-gold-metallic px-6 py-3 font-semibold text-olive-950 transition hover:opacity-90"
           >
-            Book Consultation for this Service
+            Book This Activity
           </Link>
         </section>
       </Reveal>

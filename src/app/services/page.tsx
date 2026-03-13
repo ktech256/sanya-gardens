@@ -13,7 +13,7 @@ export default function ServicesPage() {
         image="/images/elephant-hero.jpg"
       />
       <Reveal>
-        <SectionHeading title="Our Service Lines" description="Each service area is delivered by experienced specialists with a focus on measurable business value." />
+        <SectionHeading title="Our Activities" description="Choose from relaxing, recreational, educational, and nature-based experiences across the garden." />
       </Reveal>
       <section className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
         {services.map((service) => (

@@ -8,8 +8,8 @@ export default function ServicesPage() {
   return (
     <div className="space-y-12 pb-10">
       <HeroSection
-        title="Explore Activities at Sanya Gardens"
-        subtitle="Discover eleven outdoor, educational, wellness, and cultural activities designed for families, schools, groups, and nature enthusiasts."
+        title="Comprehensive Activities for Finance, Tax, and Compliance"
+        subtitle="Explore our full service portfolio designed to support business continuity, regulatory compliance, and growth-focused strategy."
         image="/images/elephant-hero.jpg"
       />
       <Reveal>

@@ -23,7 +23,7 @@ export default function Home() {
         actions={
           <div className="flex flex-wrap gap-4">
             <Link href="/book-consultation" className="rounded-full bg-gold-metallic px-6 py-3 text-sm font-semibold text-olive-950">Book a Consultation</Link>
-            <Link href="/services" className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white">View Activities</Link>
+            <Link href="/services" className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white">View Services</Link>
           </div>
         }
       />

@@ -8,28 +8,28 @@ import { CTASection } from '@/components/CTASection';
 import { TestimonialCard } from '@/components/TestimonialCard';
 
 const testimonials = [
-  { name: 'Lerato Mokoena', company: 'Mokoena Logistics', rating: 5, text: 'TGEC brought discipline to our reporting and helped us make confident expansion decisions.' },
-  { name: 'David Naidoo', company: 'Naidoo Medical Supply', rating: 5, text: 'Their tax planning saved us costly surprises and improved our annual cash position.' },
-  { name: 'Nombulelo Sithole', company: 'Sithole Foods', rating: 5, text: 'Highly professional team with exceptional turnaround and practical strategic advice.' }
+  { name: 'Lerato Mokoena', company: 'Family Visitor', rating: 5, text: 'Our picnic day at Sanya Gardens was peaceful, well-organized, and perfect for family bonding.' },
+  { name: 'David Naidoo', company: 'School Coordinator', rating: 5, text: 'The school camp activities were educational, safe, and engaging for our learners.' },
+  { name: 'Nombulelo Sithole', company: 'Community Group Leader', rating: 5, text: 'From birdwatching to stargazing, every activity was memorable and well facilitated.' }
 ];
 
 export default function Home() {
   return (
     <div className="space-y-16 pb-10">
       <HeroSection
-        title="Professional Accounting & Financial Consulting You Can Trust"
-        subtitle="TGEC delivers compliance, clarity, and sustainable growth through rigorous financial management and strategic advisory support."
+        title="Explore Nature, Culture & Outdoor Activities at Sanya Gardens"
+        subtitle="Sanya Gardens offers memorable outdoor experiences including picnics, boot camping, school camps, sports, birdwatching, stargazing, and more."
         image="/images/elephant-hero.jpg"
         actions={
           <div className="flex flex-wrap gap-4">
-            <Link href="/book-consultation" className="rounded-full bg-gold-metallic px-6 py-3 text-sm font-semibold text-zinc-950">Book a Consultation</Link>
-            <Link href="/services" className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white">View Services</Link>
+            <Link href="/book-consultation" className="rounded-full bg-gold-metallic px-6 py-3 text-sm font-semibold text-olive-950">Book for Activities</Link>
+            <Link href="/services" className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white">View Activities</Link>
           </div>
         }
       />
 
       <Reveal>
-        <SectionHeading eyebrow="Our expertise" title="Premium financial services built for ambitious organisations" description="Comprehensive solutions tailored for growing businesses, professional firms, and established enterprises across South Africa." />
+        <SectionHeading eyebrow="Our activities" title="Outdoor experiences for every kind of visitor" description="Enjoy nature, recreation, learning, and cultural activities designed for families, schools, groups, and explorers." />
       </Reveal>
 
       <section className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -41,7 +41,7 @@ export default function Home() {
       </section>
 
       <Reveal>
-        <SectionHeading eyebrow="Trusted by businesses across South Africa" title="Client confidence is our benchmark" />
+        <SectionHeading eyebrow="Loved by visitors" title="Guest experiences at Sanya Gardens" />
       </Reveal>
       <section className="grid gap-6 md:grid-cols-3">
         {testimonials.map((testimonial) => (

@@ -2,13 +2,13 @@
 
 export const CONTACT_CONFIG = {
   // ✅ Where website emails should arrive (Vercel + shared hosting fallback)
-  TO_EMAIL: 'inquiry@tgec.co.za',
+  TO_EMAIL: 'inquiry@sanyagardens.co.za',
 
   // ✅ WhatsApp number (international format, no +)
   WHATSAPP_NUMBER: '27691928919',
 
   // ✅ Email subject prefix
-  SUBJECT_PREFIX: 'TGEC Consultation Request',
+  SUBJECT_PREFIX: 'Sanya Gardens Consultation Request',
 
   // ✅ Endpoints (Vercel first, then shared hosting PHP fallback)
   API_ENDPOINT_VERCEL: '/api/contact',

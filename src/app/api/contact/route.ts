@@ -42,7 +42,7 @@ export async function POST(request: Request) {
       to: receiver,
       subject: `${CONTACT_CONFIG.SUBJECT_PREFIX} — ${data.service} / ${data.subService}`,
       html: `
-        <h2>TGEC Consultation Request</h2>
+        <h2>Sanya Gardens Consultation Request</h2>
         <p><strong>Name:</strong> ${data.fullName}</p>
         <p><strong>Company:</strong> ${data.companyName || '-'}</p>
         <p><strong>Phone:</strong> ${data.phone}</p>

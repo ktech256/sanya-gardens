@@ -6,7 +6,7 @@ import { FloatingWhatsApp } from '@/components/FloatingWhatsApp';
 import { PageTransition } from '@/components/PageTransition';
 
 export const metadata: Metadata = {
-  title: 'The Great Elephant Consulting',
+  title: 'Sanya Gardens',
   description:
     'Professional accounting, tax, and financial consulting services for businesses and individuals across South Africa.',
   icons: {
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     apple: [{ url: '/apple-touch-icon.png' }]
   },
   openGraph: {
-    title: 'The Great Elephant Consulting',
+    title: 'Sanya Gardens',
     description: 'Professional accounting and financial consulting you can trust.',
-    url: 'https://www.tgec.co.za',
-    siteName: 'The Great Elephant Consulting',
+    url: 'https://www.sanyagardens.co.za',
+    siteName: 'Sanya Gardens',
     type: 'website'
   }
 };

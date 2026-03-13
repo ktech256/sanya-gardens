@@ -45,8 +45,8 @@ export const services: Service[] = [
     slug: 'picnics',
     title: 'Picnics',
     summary: 'A relaxing outdoor dining experience for families, friends, and groups in peaceful natural surroundings.',
-    heroImage: IMG,
-    cardImage: IMG,
+    heroImage: '/images/elephant-hero.jpg',
+    cardImage: '/images/elephant-hero.jpg',
     intro:
       'Picnics at Sanya Gardens offer visitors a relaxing and enjoyable way to spend time in nature while sharing food and meaningful moments with family, friends, or colleagues. The garden’s wide open spaces, natural shade from trees, and peaceful surroundings make it an ideal destination for outdoor dining and relaxation. Visitors are welcome to bring their own picnic baskets, meals, drinks, snacks, and picnic equipment such as blankets, mats, or portable chairs.',
     subServices: [

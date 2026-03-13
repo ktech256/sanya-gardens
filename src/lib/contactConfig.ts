@@ -5,7 +5,7 @@ export const CONTACT_CONFIG = {
   TO_EMAIL: 'inquiry@sanyagardens.co.za',
 
   // ✅ WhatsApp number (international format, no +)
-  WHATSAPP_NUMBER: '27691928919',
+  WHATSAPP_NUMBER: '256772884321',
 
   // ✅ Email subject prefix
   SUBJECT_PREFIX: 'Sanya Gardens Consultation Request',

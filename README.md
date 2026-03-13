@@ -25,7 +25,7 @@ SMTP_HOST=your-smtp-host
 SMTP_PORT=587
 SMTP_USER=your-smtp-user
 SMTP_PASS=your-smtp-password
-CONTACT_RECEIVER_EMAIL=inquiry@sanyagardens.co.za
+CONTACT_RECEIVER_EMAIL=info@sanyagardens.co.ug
 ```
 
 ## Features

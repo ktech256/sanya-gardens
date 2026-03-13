@@ -45,7 +45,7 @@ if (strlen($fullName) < 2 || strlen($phone) < 8 || !filter_var($email, FILTER_VA
 }
 
 // ✅ CHANGE THIS to YOUR inbox:
-$to = 'inquiry@sanyagardens.co.za';
+$to = 'info@sanyagardens.co.ug, harrietyogasanya@gmail.com';
 
 // Subject
 $subject = "Sanya Gardens Consultation Request — {$service} / {$subService}";
@@ -63,7 +63,7 @@ $body .= "Preferred Time: {$preferredTime}\n";
 $body .= "Message: " . ($message !== '' ? $message : '-') . "\n";
 
 // Headers
-$from = 'no-reply@' . ($_SERVER['HTTP_HOST'] ?? 'sanyagardens.co.za');
+$from = 'no-reply@' . ($_SERVER['HTTP_HOST'] ?? 'sanyagardens.co.ug');
 $headers = [];
 $headers[] = "From: Sanya Gardens Website <{$from}>";
 $headers[] = "Reply-To: {$email}";

@@ -10,7 +10,7 @@ export default function ServicesPage() {
       <HeroSection
         title="Explore Activities at Sanya Gardens"
         subtitle="Discover eleven outdoor, educational, wellness, and cultural activities designed for families, schools, groups, and nature enthusiasts."
-        image="/images/elephant-hero.jpg"
+        image="/images/service-afs.jpg"
       />
       <Reveal>
         <SectionHeading title="Our Activities" description="Choose from relaxing, recreational, educational, and nature-based experiences across the garden." />

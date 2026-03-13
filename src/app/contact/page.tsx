@@ -8,7 +8,7 @@ export default function ContactPage() {
       <HeroSection
         title="Contact Sanya Gardens"
         subtitle="Reach our team to plan visits, group bookings, school activities, and outdoor experiences at Sanya Gardens."
-        image="/images/elephant-hero.jpg"
+        image="/images/service-accounting.jpg"
       />
       <div className="grid gap-6 lg:grid-cols-[1.2fr_1fr]">
         <section className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 md:p-8">

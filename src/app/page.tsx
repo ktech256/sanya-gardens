@@ -19,7 +19,7 @@ export default function Home() {
       <HeroSection
         title="Explore Nature, Culture & Outdoor Activities at Sanya Gardens"
         subtitle="Sanya Gardens offers memorable outdoor experiences including picnics, boot camping, school camps, sports, birdwatching, stargazing, and more."
-        image="/images/elephant-hero.jpg"
+        image="/images/service-strategy.jpg"
         actions={
           <div className="flex flex-wrap gap-4">
             <Link href="/book-consultation" className="rounded-full bg-gold-metallic px-6 py-3 text-sm font-semibold text-olive-950">Book for Activities</Link>

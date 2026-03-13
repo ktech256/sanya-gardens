@@ -8,7 +8,7 @@ export default function BookConsultationPage() {
       <HeroSection
         title="Book for Activities"
         subtitle="Share your preferred activity, group details, and schedule. Our team will confirm your booking and next steps promptly."
-        image="/images/elephant-hero.jpg"
+        image="/images/service-individual-tax.jpg"
       />
 
       <section className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 md:p-8">

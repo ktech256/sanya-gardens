@@ -41,7 +41,7 @@ export default function ReviewsPage() {
       <HeroSection
         title="Client Reviews"
         subtitle="Visitors and groups enjoy Sanya Gardens for memorable, safe, and nature-rich activity experiences."
-        image="/images/elephant-hero.jpg"
+        image="/images/service-tax.jpg"
       />
       <section className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
         {reviews.map((review) => (

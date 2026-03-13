@@ -11,7 +11,7 @@ export default function AboutPage() {
       <HeroSection
         title="About Sanya Gardens"
         subtitle="Sanya Gardens is a nature-focused destination offering outdoor recreation, learning experiences, and cultural activities for visitors and communities."
-        image="/images/elephant-hero.jpg"
+        image="/images/service-business-setup.jpg"
       />
 
       <Reveal>

@@ -38,6 +38,8 @@ const HOW_WE_WORK_STEPS = [
   }
 ] as const;
 
+const IMG = '/images/elephant-hero.jpg';
+
 export const services: Service[] = [
   {
     slug: 'picnics',
@@ -76,8 +78,8 @@ export const services: Service[] = [
     slug: 'boot-camping',
     title: 'Boot Camping',
     summary: 'An immersive outdoor adventure focused on nature connection, teamwork, and practical camping skills.',
-    heroImage: '/images/service-strategy.jpg',
-    cardImage: '/images/service-strategy.jpg',
+    heroImage: IMG,
+    cardImage: IMG,
     intro:
       'Boot camping at Sanya Gardens provides an exciting and immersive outdoor adventure that allows visitors to experience life closer to nature. Participants can bring camping equipment such as tents, sleeping bags, and cooking tools to set up temporary camps within designated areas. Camping in this natural setting allows visitors to enjoy the quiet atmosphere of the countryside during both day and night.',
     subServices: [
@@ -109,8 +111,8 @@ export const services: Service[] = [
     slug: 'school-camps',
     title: 'School Camps',
     summary: 'Outdoor learning programmes combining environmental education, recreation, and student development.',
-    heroImage: '/images/service-accounting.jpg',
-    cardImage: '/images/service-accounting.jpg',
+    heroImage: IMG,
+    cardImage: IMG,
     intro:
       'School camps at Sanya Gardens provide students with valuable opportunities to learn outside the traditional classroom environment. The garden acts as a living classroom where students can observe plant species, insects, birds, and small animals in their natural habitats. Camps combine education, exploration, and recreation in a safe and structured setting.',
     subServices: [
@@ -142,8 +144,8 @@ export const services: Service[] = [
     slug: 'volleyball',
     title: 'Volleyball',
     summary: 'An energetic outdoor sport experience that promotes fitness, teamwork, and social fun.',
-    heroImage: '/images/service-tax.jpg',
-    cardImage: '/images/service-tax.jpg',
+    heroImage: IMG,
+    cardImage: IMG,
     intro:
       'Volleyball at Sanya Gardens provides visitors with an energetic and enjoyable outdoor sport that promotes physical activity and teamwork. The garden offers space where visitors can organize friendly volleyball matches in a relaxed and natural environment. The activity is suitable for all ages and skill levels, from beginners to experienced players.',
     subServices: [
@@ -175,8 +177,8 @@ export const services: Service[] = [
     slug: 'birdwatching',
     title: 'Birdwatching',
     summary: 'A peaceful wildlife activity for observing and learning about birds in their natural habitat.',
-    heroImage: '/images/service-afs.jpg',
-    cardImage: '/images/service-afs.jpg',
+    heroImage: IMG,
+    cardImage: IMG,
     intro:
       'Birdwatching at Sanya Gardens provides visitors with a peaceful and educational opportunity to observe a variety of bird species in their natural habitat. Trees, plants, and natural ecosystems attract birds that feed, sing, and nest across the area. Early morning sessions are especially rewarding when bird activity is highest.',
     subServices: [
@@ -208,8 +210,8 @@ export const services: Service[] = [
     slug: 'roasting-nyama-choma',
     title: 'Roasting Nyama Choma',
     summary: 'A social and cultural outdoor grilling experience centered on hospitality and shared meals.',
-    heroImage: '/images/service-business-setup.jpg',
-    cardImage: '/images/service-business-setup.jpg',
+    heroImage: IMG,
+    cardImage: IMG,
     intro:
       'Roasting Nyama Choma at Sanya Gardens is a social and cultural activity that brings people together through the enjoyment of freshly grilled meat in an outdoor environment. Visitors can prepare and roast meat while enjoying stories, conversation, and music in a relaxed garden atmosphere. The experience celebrates shared meals, cultural traditions, and hospitality.',
     subServices: [
@@ -241,8 +243,8 @@ export const services: Service[] = [
     slug: 'art-displays',
     title: 'Art Displays',
     summary: 'Creative exhibitions and workshops that connect nature, culture, and community expression.',
-    heroImage: '/images/service-individual-tax.jpg',
-    cardImage: '/images/service-individual-tax.jpg',
+    heroImage: IMG,
+    cardImage: IMG,
     intro:
       'Art displays at Sanya Gardens provide a platform where creativity and culture can be expressed through visual art, crafts, and creative exhibitions. Visitors can explore paintings, sculptures, handmade crafts, photography, and student artworks inspired by nature and community life. The garden setting deepens the connection between creativity and the environment.',
     subServices: [
@@ -274,8 +276,8 @@ export const services: Service[] = [
     slug: 'walking',
     title: 'Walking',
     summary: 'Peaceful nature walks for health, reflection, and exploration of the garden environment.',
-    heroImage: '/images/elephant-hero.jpg',
-    cardImage: '/images/elephant-hero.jpg',
+    heroImage: IMG,
+    cardImage: IMG,
     intro:
       'Walking through Sanya Gardens provides visitors with a peaceful and refreshing way to explore plants, trees, flowers, and wildlife. The garden’s paths and open spaces support self-paced or guided walks in a calm natural setting. Walking here offers physical, emotional, and mental wellbeing benefits for individuals and groups.',
     subServices: [
@@ -307,8 +309,8 @@ export const services: Service[] = [
     slug: 'stargazing',
     title: 'Stargazing',
     summary: 'Night-sky observation in a low-light natural setting for wonder, learning, and calm reflection.',
-    heroImage: '/images/service-strategy.jpg',
-    cardImage: '/images/service-strategy.jpg',
+    heroImage: IMG,
+    cardImage: IMG,
     intro:
       'Stargazing at Sanya Gardens offers visitors a rare opportunity to observe the beauty of the night sky in a location with minimal artificial light. On clear nights, constellations, planets, and star clusters become visible in remarkable detail. The experience is especially meaningful during evening camping sessions and group gatherings.',
     subServices: [
@@ -340,8 +342,8 @@ export const services: Service[] = [
     slug: 'researching-flora-and-fauna',
     title: 'Researching Flora and Fauna',
     summary: 'A practical biodiversity learning space for observing plants, herbs, insects, and small animals.',
-    heroImage: '/images/service-accounting.jpg',
-    cardImage: '/images/service-accounting.jpg',
+    heroImage: IMG,
+    cardImage: IMG,
     intro:
       'Sanya Gardens offers an excellent natural environment for studying flora and fauna, including herbs, butterflies, frogs, insects, and other small animals. Researchers, students, environmentalists, and nature enthusiasts can observe species interactions and ecosystem patterns in a living natural laboratory. This activity supports environmental education and biodiversity documentation.',
     subServices: [
@@ -373,8 +375,8 @@ export const services: Service[] = [
     slug: 'learning-about-composting',
     title: 'Learning About Composting',
     summary: 'Sustainability education on turning organic waste into nutrient-rich compost for healthy soil.',
-    heroImage: '/images/service-business-setup.jpg',
-    cardImage: '/images/service-business-setup.jpg',
+    heroImage: IMG,
+    cardImage: IMG,
     intro:
       'Composting education at Sanya Gardens introduces visitors to sustainable methods of recycling organic waste and improving soil health. Visitors learn how food scraps, plant waste, and leaves naturally break down into compost that supports healthy plant growth. Demonstrations provide practical techniques for building and maintaining simple compost systems.',
     subServices: [

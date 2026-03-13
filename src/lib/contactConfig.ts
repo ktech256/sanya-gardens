@@ -2,7 +2,7 @@
 
 export const CONTACT_CONFIG = {
   // ✅ Where website emails should arrive (Vercel + shared hosting fallback)
-  TO_EMAIL: 'info@sanyagardens.co.ug, harrietyogasanya@gmail.com',
+  TO_EMAIL: 'inquiry@sanyagardens.co.za',
 
   // ✅ WhatsApp number (international format, no +)
   WHATSAPP_NUMBER: '256772884321',

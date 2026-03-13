@@ -21,7 +21,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
 
       <Reveal>
         <section className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 md:p-8">
-          <h2 className="mb-4 text-2xl font-semibold text-white">About this activity</h2>
+          <h2 className="mb-4 text-2xl font-semibold text-white">What we deliver</h2>
           <p className="text-olive-200">{service.intro}</p>
         </section>
       </Reveal>
@@ -53,7 +53,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
       <Reveal>
         <section className="grid gap-6 lg:grid-cols-2">
           <article className="rounded-2xl border border-white/10 bg-white/[0.02] p-6">
-            <h3 className="mb-4 text-2xl font-semibold text-white">What visitors gain</h3>
+            <h3 className="mb-4 text-2xl font-semibold text-white">Typical outcomes</h3>
             <ul className="space-y-2 text-olive-200">
               {service.typicalOutcomes.map((outcome) => (
                 <li key={outcome} className="flex gap-2">
@@ -84,7 +84,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
         <section className="rounded-2xl border border-gold-500/30 bg-gradient-to-r from-olive-900/90 via-forest-900/80 to-gold-600/20 p-6 md:p-8">
           <h3 className="mb-2 text-2xl font-semibold text-white">Ready to get started?</h3>
           <p className="mb-5 max-w-3xl text-olive-100">
-            Contact Sanya Gardens to plan your visit and choose the activities that best suit your group or occasion.
+            Book a consultation with Sanya Gardens to discuss your priorities and get a service plan tailored to your business objectives.
           </p>
           <Link
             href={`/book-consultation?service=${encodeURIComponent(service.title)}`}

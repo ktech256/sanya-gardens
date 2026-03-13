@@ -26,13 +26,10 @@ export function Footer() {
           </ul>
         </div>
         <div className="text-sm text-olive-200">
-          <p>Contact Numbers: 078 454 9102 / +254 7690 16574</p>
-          <p>WhatsApp: +256 772 884321</p>
-          <p>Contact Email: harrietyogasanya@gmail.com</p>
-          <p>Email: info@sanyagardens.co.ug</p>
-          <p>Address: Buhula Rd, Lutolo, Banda</p>
-          <p>Namayingo District</p>
-          <p>Website: www.sanyagardens.co.ug</p>
+          <p>Phone/WhatsApp: +27 69 192 8919</p>
+          <p>Email: inquiry@sanyagardens.co.za</p>
+          <p>Address: Fauna Park, Polokwane, 0700</p>
+          <p>Website: www.sanyagardens.co.za</p>
           <p className="mb-3 mt-5 text-xs font-semibold uppercase tracking-[0.2em] text-gold-500">Follow us</p>
           <SocialLinks />
         </div>

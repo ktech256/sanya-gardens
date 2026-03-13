@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Sanya Gardens',
     description: 'Professional accounting and financial consulting you can trust.',
-    url: 'https://www.sanyagardens.co.ug',
+    url: 'https://www.sanyagardens.co.za',
     siteName: 'Sanya Gardens',
     type: 'website'
   }

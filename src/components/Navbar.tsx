@@ -23,7 +23,7 @@ export function Navbar() {
             className="h-8 w-auto md:h-10"
             priority
           />
-          <span className="text-base font-semibold leading-tight sm:text-lg md:text-xl">
+          <span className="text-sm font-semibold leading-tight sm:text-base">
             Sanya <span className="text-gold-500">Gardens</span>
           </span>
         </Link>

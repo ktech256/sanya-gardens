@@ -38,6 +38,8 @@ const HOW_WE_WORK_STEPS = [
   }
 ] as const;
 
+const IMG = '/images/elephant-hero.jpg';
+
 export const services: Service[] = [
   {
     slug: 'picnics',

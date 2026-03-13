@@ -8,9 +8,9 @@ import { CTASection } from '@/components/CTASection';
 import { TestimonialCard } from '@/components/TestimonialCard';
 
 const testimonials = [
-  { name: 'Lerato Mokoena', company: 'Family Visitor', rating: 5, text: 'Our picnic day at Sanya Gardens was peaceful, well-organized, and perfect for family bonding.' },
-  { name: 'David Naidoo', company: 'School Coordinator', rating: 5, text: 'The school camp activities were educational, safe, and engaging for our learners.' },
-  { name: 'Nombulelo Sithole', company: 'Community Group Leader', rating: 5, text: 'From birdwatching to stargazing, every activity was memorable and well facilitated.' }
+  { name: 'Mukisa Henry', company: 'Family Visitor', rating: 5, text: 'Our picnic day at Sanya Gardens was peaceful, well-organized, and perfect for family bonding.' },
+  { name: 'Waiswa Hassan', company: 'School Coordinator', rating: 5, text: 'The school camp activities were educational, safe, and engaging for our learners.' },
+  { name: 'Bwire David', company: 'Community Group Leader', rating: 5, text: 'From birdwatching to stargazing, every activity was memorable and well facilitated.' }
 ];
 
 export default function Home() {

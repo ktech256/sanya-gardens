@@ -7,7 +7,7 @@ export default function ContactPage() {
     <div className="space-y-10 pb-10">
       <HeroSection
         title="Contact Sanya Gardens"
-        subtitle="Reach our team for accounting, tax, and strategic finance support tailored to your organisation."
+        subtitle="Reach our team to plan visits, group bookings, school activities, and outdoor experiences at Sanya Gardens."
         image="/images/elephant-hero.jpg"
       />
       <div className="grid gap-6 lg:grid-cols-[1.2fr_1fr]">

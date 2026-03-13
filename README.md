@@ -32,5 +32,5 @@ CONTACT_RECEIVER_EMAIL=info@sanyagardens.co.ug
 - Multi-page premium olive/forest/gold UI
 - Reusable animated components
 - Service-driven content model in `src/data/services.ts`
-- Book Consultation + Contact forms with validation
+- Book for Activities + Contact forms with validation
 - API email dispatch + WhatsApp formatted submission

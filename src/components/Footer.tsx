@@ -8,7 +8,7 @@ export function Footer() {
         <div>
           <p className="mb-3 text-lg font-semibold text-white">Sanya Gardens</p>
           <p className="text-sm text-olive-300">
-            Professional accounting, tax advisory, and strategic financial consulting for South African businesses.
+            A nature destination offering relaxing, educational, cultural, and adventure activities for visitors of all ages.
           </p>
         </div>
         <div>
@@ -21,7 +21,7 @@ export function Footer() {
               <Link href="/services">Activities</Link>
             </li>
             <li>
-              <Link href="/book-consultation">Book Consultation</Link>
+              <Link href="/book-consultation">Book for Activities</Link>
             </li>
           </ul>
         </div>

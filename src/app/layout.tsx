@@ -8,7 +8,7 @@ import { PageTransition } from '@/components/PageTransition';
 export const metadata: Metadata = {
   title: 'Sanya Gardens',
   description:
-    'Professional accounting, tax, and financial consulting services for businesses and individuals across South Africa.',
+    'Outdoor activities, nature experiences, and group-friendly programs at Sanya Gardens.',
   icons: {
     icon: [
       { url: '/favicon.ico' },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Sanya Gardens',
-    description: 'Professional accounting and financial consulting you can trust.',
+    description: 'Outdoor activities and memorable nature experiences for families, schools, and groups.',
     url: 'https://www.sanyagardens.co.ug',
     siteName: 'Sanya Gardens',
     type: 'website'

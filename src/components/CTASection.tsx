@@ -7,10 +7,10 @@ export function CTASection() {
       <p className="mb-3 text-xs uppercase tracking-[0.28em] text-gold-400">Strategic Support</p>
       <h3 className="mb-4 text-3xl font-semibold text-white">Build with confidence. Scale with precision.</h3>
       <p className="mx-auto mb-8 max-w-2xl text-olive-100">
-        Partner with Sanya Gardens for accounting, tax, and financial advisory expertise designed to keep your organisation compliant, focused, and growth-ready.
+        Plan your next visit to Sanya Gardens and enjoy relaxing, educational, and adventure-filled activities for families, schools, and groups.
       </p>
       <Link href="/book-consultation" className="rounded-full bg-gold-metallic px-6 py-3 text-sm font-semibold text-olive-950 transition hover:opacity-90">
-        Book a Consultation
+        Book for Activities
       </Link>
     </Reveal>
   );

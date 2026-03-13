@@ -101,9 +101,9 @@ export function ConsultationForm({ defaultService }: Props) {
     }
 
     // Always open WhatsApp as a reliable fallback path
-    const message = `Hello Sanya Gardens, I would like to book a consultation.
+    const message = `Hello Sanya Gardens, I would like to book activities.
 Name: ${payload.fullName}
-Company: ${payload.companyName || '-'}
+Organization: ${payload.companyName || '-'}
 Phone: ${payload.phone}
 Email: ${payload.email}
 Service: ${payload.service}
@@ -119,7 +119,7 @@ Message: ${payload.message || '-'}`;
     );
 
     if (emailOk) {
-      setSuccess('Thanks. Your consultation request has been submitted. We will contact you shortly.');
+      setSuccess('Thanks. Your booking request has been submitted. We will contact you shortly.');
       event.currentTarget.reset();
     } else {
       setSuccess('Your WhatsApp request was prepared, but email delivery failed. Please contact us directly.');
@@ -134,7 +134,7 @@ Message: ${payload.message || '-'}`;
       </div>
 
       <div>
-        <input className={fields} placeholder="Company Name (optional)" {...register('companyName')} />
+        <input className={fields} placeholder="Organization Name (optional)" {...register('companyName')} />
       </div>
 
       <div>
@@ -188,7 +188,7 @@ Message: ${payload.message || '-'}`;
           disabled={isSubmitting}
           className="rounded-full bg-gold-metallic px-6 py-3 font-semibold text-olive-950 disabled:opacity-60"
         >
-          {isSubmitting ? 'Submitting...' : 'Submit Consultation Request'}
+          {isSubmitting ? 'Submitting...' : 'Submit Booking Request'}
         </button>
       </div>
 

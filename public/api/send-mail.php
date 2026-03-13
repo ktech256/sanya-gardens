@@ -45,13 +45,13 @@ if (strlen($fullName) < 2 || strlen($phone) < 8 || !filter_var($email, FILTER_VA
 }
 
 // ✅ CHANGE THIS to YOUR inbox:
-$to = 'inquiry@tgec.co.za';
+$to = 'info@sanyagardens.co.ug, harrietyogasanya@gmail.com';
 
 // Subject
-$subject = "TGEC Consultation Request — {$service} / {$subService}";
+$subject = "Sanya Gardens Consultation Request — {$service} / {$subService}";
 
 // Email body (plain text)
-$body = "TGEC Consultation Request\n\n";
+$body = "Sanya Gardens Consultation Request\n\n";
 $body .= "Name: {$fullName}\n";
 $body .= "Company: " . ($companyName !== '' ? $companyName : '-') . "\n";
 $body .= "Phone: {$phone}\n";
@@ -63,9 +63,9 @@ $body .= "Preferred Time: {$preferredTime}\n";
 $body .= "Message: " . ($message !== '' ? $message : '-') . "\n";
 
 // Headers
-$from = 'no-reply@' . ($_SERVER['HTTP_HOST'] ?? 'tgec.co.za');
+$from = 'no-reply@' . ($_SERVER['HTTP_HOST'] ?? 'sanyagardens.co.ug');
 $headers = [];
-$headers[] = "From: TGEC Website <{$from}>";
+$headers[] = "From: Sanya Gardens Website <{$from}>";
 $headers[] = "Reply-To: {$email}";
 $headers[] = "MIME-Version: 1.0";
 $headers[] = "Content-Type: text/plain; charset=UTF-8";

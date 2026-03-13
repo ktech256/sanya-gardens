@@ -8,7 +8,7 @@ import { CTASection } from '@/components/CTASection';
 import { TestimonialCard } from '@/components/TestimonialCard';
 
 const testimonials = [
-  { name: 'Lerato Mokoena', company: 'Mokoena Logistics', rating: 5, text: 'TGEC brought discipline to our reporting and helped us make confident expansion decisions.' },
+  { name: 'Lerato Mokoena', company: 'Mokoena Logistics', rating: 5, text: 'Sanya Gardens brought discipline to our reporting and helped us make confident expansion decisions.' },
   { name: 'David Naidoo', company: 'Naidoo Medical Supply', rating: 5, text: 'Their tax planning saved us costly surprises and improved our annual cash position.' },
   { name: 'Nombulelo Sithole', company: 'Sithole Foods', rating: 5, text: 'Highly professional team with exceptional turnaround and practical strategic advice.' }
 ];
@@ -18,12 +18,12 @@ export default function Home() {
     <div className="space-y-16 pb-10">
       <HeroSection
         title="Professional Accounting & Financial Consulting You Can Trust"
-        subtitle="TGEC delivers compliance, clarity, and sustainable growth through rigorous financial management and strategic advisory support."
+        subtitle="Sanya Gardens delivers compliance, clarity, and sustainable growth through rigorous financial management and strategic advisory support."
         image="/images/elephant-hero.jpg"
         actions={
           <div className="flex flex-wrap gap-4">
-            <Link href="/book-consultation" className="rounded-full bg-gold-metallic px-6 py-3 text-sm font-semibold text-zinc-950">Book a Consultation</Link>
-            <Link href="/services" className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white">View Services</Link>
+            <Link href="/book-consultation" className="rounded-full bg-gold-metallic px-6 py-3 text-sm font-semibold text-olive-950">Book a Consultation</Link>
+            <Link href="/services" className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white">View Activities</Link>
           </div>
         }
       />
